@@ -78,7 +78,7 @@ if __name__ == "__main__":
     files = walk(
         dir=args.dir,
         skip_ja=args.skip,
-        sip_translated=args.skip,
+        skip_translated=args.skip,
     )
 
     if args.verbose:
